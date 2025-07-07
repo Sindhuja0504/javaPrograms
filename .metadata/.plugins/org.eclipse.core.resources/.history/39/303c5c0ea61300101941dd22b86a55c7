@@ -1,0 +1,32 @@
+package org.basic;
+
+import org.openqa.selenium.edge.EdgeDriver;
+
+import org.openqa.selenium.WebDriver;
+
+public class First {
+	
+	
+
+	public static void main(String[] args) {
+		   // Set path to EdgeDriver (adjust path as needed)
+	    System.setProperty("webdriver.edge.driver", "msedgedriver.exe");
+	    
+	    // Initialize Edge
+	    WebDriver driver = new EdgeDriver();
+	    
+	    // Test operations
+	    driver.get("https://www.google.com");
+	    System.out.println("Page title: " + driver.getTitle());
+	    
+	    // Close browser
+	    driver.quit();
+		//EdgeDriver driver = new EdgeDriver();
+	
+//		WebDriver driver1 = new EdgeDriver();
+//		//String s ="https://www.google.com";
+//		driver1.get("https://www.google.co.in/");
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package org;
+
+public class NewTest2 {
+
+	public static void main(String[] args) {
+		int a= 10,b= 20, c=10;
+		int d = a*b*c;
+		int e = a+b+c;
+		System.out.println("multiple ans :" + d);
+		System.out.println("add ans :" + e);
+		 int s =d/e;
+		 System.out.println("divide ans :" + s);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package org;
+
+public class ThisKeyword {
+	
+	ThisKeyword(){
+		System.out.println("hi");
+		
+	}
+	
+	void setclass()
+	{
+		
+	}
+
+	public static void main(String[] args) {
+		
+		ThisKeyword obj = new ThisKeyword();
+
+	}
+
+}

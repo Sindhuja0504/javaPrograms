@@ -1,0 +1,46 @@
+package org.action;
+
+
+public class Keys {
+
+	
+
+	public static void main(String[] args) throws InterruptedException {
+		Thread thread= new Thread();
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://bocw.bihar.gov.in/ApplicationReport.aspx");
+	WebElement element=	driver.findElement(By.name("ddldistrict"));
+	element.click();
+	Select select = new Select(element);
+	select.selectByVisibleText(" Banka");
+	 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	 wait.until(ExpectedConditions.elementToBeSelected(element));
+	 
+	//thread.sleep(3000);
+	 
+	 Actions action = new Actions(driver);
+	 action.sendKeys(org.openqa.selenium.Keys)
+	
+	
+	//Actions action = new Actions(driver);
+	action.sendKeys(Keys.TAB);
+	
+	
+	action.sendKeys(Keys.TAB);
+	action.perform();
+	System.out.println("tab1");
+	
+	action.sendKeys(Keys.TAB);
+	action.perform();
+	System.out.println("tab2");
+	action.sendKeys(Keys.TAB);
+	action.perform();
+	System.out.println("tab3");
+	
+	action.sendKeys(Keys.ENTER);
+	action.perform();
+
+	}
+
+}

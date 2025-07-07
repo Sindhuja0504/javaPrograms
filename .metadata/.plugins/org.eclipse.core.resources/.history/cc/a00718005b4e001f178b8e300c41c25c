@@ -1,0 +1,23 @@
+package org;
+
+public class Mobile {
+	void iphone()
+	{
+		
+	}
+	void  samsung()
+	{
+		
+	}
+	void realme()
+	{
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package org;
+
+public class ComparisonOperator {
+
+	public static void main(String[] args) {
+		// find the number is odd or even
+		
+	
+
+	}
+
+}

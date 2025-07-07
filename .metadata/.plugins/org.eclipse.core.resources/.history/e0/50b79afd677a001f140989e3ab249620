@@ -1,0 +1,32 @@
+package seleniumBasic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListMethod {
+
+	public static void main(String[] args) {
+		
+		List<String> student = new ArrayList<String>();
+		//add() method
+		student.add("sindhu");
+		student.add("sriram");
+		student.add("anbu");
+		student.add("ramya");
+		System.out.println("added the student name :" + student);
+		
+		//add()
+		student.add(3,"riya"); // while add we can give 2 variable
+		System.out.println(student);
+		
+		//get()
+		String value = student.get(1);
+		System.out.println(value);
+		
+		//size
+		int number = student.size();
+		System.out.println(number);
+		
+	}
+
+}

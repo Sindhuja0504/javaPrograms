@@ -1,0 +1,15 @@
+package org;
+
+public class MyDefault {
+     // default constructor
+	String name;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MyDefault obj = new MyDefault();
+		System.out.println(obj.name);
+
+	}
+
+}

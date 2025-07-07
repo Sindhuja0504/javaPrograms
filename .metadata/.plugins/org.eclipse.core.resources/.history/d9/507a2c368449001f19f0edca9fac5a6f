@@ -1,0 +1,18 @@
+package org;
+
+import java.util.Scanner;
+
+public class UserInput {
+
+
+	public  static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		String demo1 = scan.next();
+		System.out.println(" the string value is : " + demo1);
+		 
+		
+
+	}
+
+}

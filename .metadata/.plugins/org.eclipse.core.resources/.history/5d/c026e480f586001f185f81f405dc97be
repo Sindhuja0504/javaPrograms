@@ -1,0 +1,28 @@
+package seleniumBasic;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AlertProgram {
+
+	public static void main(String[] args) {
+
+//  Simple alert
+		
+		ChromeDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.leafground.com/alert.xhtml");
+		driver.findElement(By.xpath("//span[text()= 'Show']")).click();
+		Alert message = driver.switchTo().alert();
+		String demo = message.getText();
+		System.out.println(demo);
+		message.accept();
+		
+		driver.findElement(By.xpath("(//span[@class ='ui-button-text ui-c'])[5]")).click();
+		Alert message1 = driver.switchTo().alert();
+	    driver.findElement(By.xpath("(//span[@class='ui-icon ui-icon-closethick'])[2]"));
+	    message1.accept();
+	}
+}

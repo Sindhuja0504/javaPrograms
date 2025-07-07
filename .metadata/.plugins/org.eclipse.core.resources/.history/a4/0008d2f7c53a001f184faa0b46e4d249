@@ -1,0 +1,6 @@
+Feature: This is to test the Open Google
+Scenarios: Open the Google website and search
+Given User entering the www.google.com
+When User is typing "water" in the search bar
+And Enter the return key
+Then user should see the result 

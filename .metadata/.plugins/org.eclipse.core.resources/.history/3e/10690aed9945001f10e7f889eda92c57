@@ -1,0 +1,29 @@
+package org;
+
+public class Modifieres {
+	
+	int rollNo = 23;
+	String StudentName = "Sri";
+	long MobileNo = 1234567890;
+	float height = 5.5f;
+	char grade = 'a';
+	
+	private void tall() {
+		System.out.println("get the:" + height);
+		
+	}
+	private void name() {
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Modifieres demo = new Modifieres();
+		demo.tall();
+
+	}
+
+}
+//public class learning{
+	
+}

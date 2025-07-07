@@ -1,0 +1,25 @@
+package seleniumBasic;
+
+import java.sql.DriverAction;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Login {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		ChromeDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://practicetestautomation.com/practice-test-login/");
+		driver.findElement(By.id("username")).sendKeys("student");
+		driver.findElement(By.name("password")).sendKeys("Password123");
+		Thread.sleep(2000);
+		driver.findElement(By.id("submit")).click();
+		driver.findElement(By.linkText("Home"));
+		
+		//driver.findElement(By.partialLinkText("Your Password?"));
+		//driver.close();
+	}
+
+}

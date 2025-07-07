@@ -1,0 +1,18 @@
+package org;
+
+
+class person{
+	String name;
+	
+	person(String name){
+		t1= name;
+	}
+}
+public class SuperClass {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,34 @@
+package learn;
+
+import java.util.Scanner;
+
+public class School {
+	
+	String passOrFail(String result)
+	{
+		return result;
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner obj = new Scanner(System.in);
+		int totalmark = obj.nextInt();
+		System.out.println("user input :" + totalmark);
+		
+		if(totalmark>=35) {
+			System.out.println("pass");
+		}
+       if (totalmark >35)
+		{
+			System.out.println("fail");
+		}
+		
+//		School mark = new School();
+//		mark.passOrFail(result)
+				
+		
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package org;
+
+public class ArrayDuplicate {
+
+	public static void main(String[] args) {
+		int[] score = {23,14,11,75,11};
+		
+		int length = score.length ;
+		
+		System.out.println("total size : "+ length);
+
+	}
+
+}

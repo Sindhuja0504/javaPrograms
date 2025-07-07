@@ -1,0 +1,13 @@
+package org;
+
+public class NewTest2 {
+
+	public static void main(String[] args) {
+		int a= 5,b= 1, c=5;
+		int d = a*b*c;
+		System.out.println("multiple ans :" + d);
+		
+
+	}
+
+}

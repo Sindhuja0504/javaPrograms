@@ -1,0 +1,17 @@
+package org;
+
+public class ModulusOperator {
+
+	public static void main(String[] args) {
+		// create num
+		//find out whether the num is divisible by 3 or not
+		 int num = 15;
+		 if (num%3 == 0) {
+			
+		} else {
+
+		}
+
+	}
+
+}

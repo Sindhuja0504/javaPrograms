@@ -1,0 +1,8 @@
+package org.array;
+
+public class NumPrint {
+	public static void main(String[] args) {
+		int a[]= {12,13,14,15,87,3,2,4,0,67};
+	}
+
+}

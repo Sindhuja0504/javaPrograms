@@ -1,0 +1,28 @@
+package org;
+
+import java.util.Scanner;
+
+public class DemoSacnner {
+	
+
+	public static void main(String[] args) {
+		
+Scanner scn=new Scanner(System.in);
+		
+//college info
+
+
+
+scn.next();
+System.out.println("Name : ");
+
+System.out.println("ID : ");
+scn.nextInt();
+
+System.out.println("Phone no : ");
+		
+scn.nextLong();
+
+	}
+
+}

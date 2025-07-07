@@ -1,0 +1,14 @@
+package org;
+
+public class Array3 {
+
+	public static void main(String[] args) {
+		int [] mark = {23,12,6,98,22,77};
+		 
+		//find the size of the array 
+		int length = mark.length ;
+		
+
+	}
+
+}

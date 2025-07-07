@@ -1,0 +1,15 @@
+package org;
+
+import java.util.Scanner;
+
+public class CpmpareIntOrString {
+
+	public static void main(String[] args) {
+		//1. compare two int
+		 Scanner demo = new Scanner(System.in);
+		 int mark = demo.nextInt();
+		 
+
+	}
+
+}

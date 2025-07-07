@@ -1,0 +1,23 @@
+package org;
+
+public class ForLoop1 {
+
+	public static void main(String[] args) {
+		 int a = 1;
+		 int b = 100;
+		 int i=a;
+		 int count =0 ;
+		  for(i=a; i<=b; i++) {
+			  
+			  if(i%3==0 && i%5==0) {
+			  System.out.println(i);
+			  count= count+1;
+		
+			 
+		  }
+		}
+		  System.out.println("count");
+		  System.out.println(count);
+  }
+}
+

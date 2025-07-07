@@ -1,0 +1,18 @@
+package org;
+
+class vehical  {
+	
+	String brand;
+	int year;
+	void StartEngine(){
+		
+	}
+	
+}
+public class InheritanceType2 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package seleniumBasic;
+
+public class MethodOverLoading {
+	
+    public void browser() {
+    	System.out.println("browser");
+    }
+    
+    public void browser(int noOfBrowser, String nameOfBrowser) {
+    	System.out.println(noOfBrowser + " " + nameOfBrowser);
+    }
+    public  int add(int a, int b) {
+    	return a+b;
+	}
+    public int  add(int a, int c, int d) {
+    	return a+c+d;
+	}
+
+	public static void main(String[] args) {
+		MethodOverLoading obj = new MethodOverLoading();
+		obj.browser();
+		obj.browser(2, "chrome");
+		int add = obj.add(3, 3);
+		System.out.println(add);
+		int num = obj.add(1, 1, 1);
+		System.out.println(num);
+
+	}
+
+}

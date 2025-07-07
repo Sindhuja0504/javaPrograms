@@ -1,0 +1,22 @@
+package seleniumBasic;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LaunchBrowser {
+
+	public static void main(String[] args) {
+		
+		//launch browser
+		ChromeDriver driver = new ChromeDriver();
+		
+		//load URL
+		driver.get("https://login.salesforce.com/?locale=in");
+		
+		//max screen
+		driver.manage().window().maximize();
+		
+		//
+		
+	}
+
+}

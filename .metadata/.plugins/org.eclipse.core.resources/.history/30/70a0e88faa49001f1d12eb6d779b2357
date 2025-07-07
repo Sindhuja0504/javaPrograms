@@ -1,0 +1,15 @@
+package org;
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		// if else
+		int score = 40;
+		if (score<50) {
+			System.out.println("you need to improve");
+			
+		}
+		if(score>=50 && score<=70) {
+	}
+
+}

@@ -1,0 +1,14 @@
+package org;
+
+public class DemoChild {
+
+	public static void main(String[] args) {
+		//DemoChild hi=new DemoChild();
+		//hi.hello();
+		
+		
+   
+		
+	}
+
+}

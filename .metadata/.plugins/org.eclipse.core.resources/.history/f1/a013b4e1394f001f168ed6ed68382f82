@@ -1,0 +1,67 @@
+package learn;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		for(int i= 0; i<10;i++)
+		{
+			System.out.println(i);
+		}
+		
+		
+//		 String str = "Hello";
+//	        System.out.println("Original String: " + str);
+//	        
+//	        // Attempting to change the string by concatenation
+//	        str = str + " World";
+//	        System.out.println("Modified String: " + str);
+//	        
+//	        
+//	        StringBuilder sb = new StringBuilder("Hello");
+//	        System.out.println("Original StringBuilder: " + sb);
+//	        
+//	        // Modifying the string using StringBuilder
+//	        sb.append(" World");
+//	        System.out.println("Modified StringBuilder: " + sb);
+		
+		
+		
+//		String str="Knowledge";
+//	      String s=str;
+//	      str=str.concat(" Base");
+//	      System.out.println(str);
+//		 
+//		 
+//		 //System.out.println(str2);
+//         StringBuilder str2 = new StringBuilder("hi ");
+//        str2.append(str);
+//         str2 = str2.reverse();     // used string builder to reverse
+//        System.out.println(str2);
+//		
+//        
+//		 String str = "hello";
+//	        char chars[] = str.toCharArray(); 
+//	       // converted to character array and printed in reverse order
+//	        for(int i= chars.length-1; i>=0; i--) {
+//	            System.out.print(chars[i]);
+//	        }
+		
+//		for(int i=0; i<5; i++)
+//		{
+//			for(int j=0; j<3; j++)
+//			{
+//				if( (i==1 && j==0) || (i==2 && j<=1)|| (i==3 && j==0) )
+//				{
+//					System.out.print(" ");
+//				}else {
+//					System.out.print("*");
+//				}
+//				
+//			}
+//			System.out.println(" ");
+//		}
+//	}
+	}
+
+}

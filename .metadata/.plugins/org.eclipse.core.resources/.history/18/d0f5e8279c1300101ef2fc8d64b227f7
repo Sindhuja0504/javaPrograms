@@ -1,0 +1,18 @@
+package org.basic;
+
+import org.openqa.selenium.edge.EdgeDriver;
+
+import org.openqa.selenium.WebDriver;
+
+public class First {
+
+	public static void main(String[] args) {
+		EdgeDriver driver = new EdgeDriver();
+	
+		WebDriver driver1 = new EdgeDriver();
+		String s ="https://www.google.com";
+		driver1.get(s);
+
+	}
+
+}

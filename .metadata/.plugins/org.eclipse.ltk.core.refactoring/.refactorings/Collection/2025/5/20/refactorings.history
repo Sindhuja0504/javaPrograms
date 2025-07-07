@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.map.Basic&apos; to &apos;HashM&apos;&#x0D;&#x0A;- Original project: &apos;Collection&apos;&#x0D;&#x0A;- Original element: &apos;org.map.Basic&apos;&#x0D;&#x0A;- Renamed element: &apos;org.map.HashM&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Basic&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.map{Basic.java[Basic" matchStrategy="1" name="HashM" qualified="false" references="true" similarDeclarations="false" stamp="1747112879217" textual="false" version="1.0"/>
+</session>

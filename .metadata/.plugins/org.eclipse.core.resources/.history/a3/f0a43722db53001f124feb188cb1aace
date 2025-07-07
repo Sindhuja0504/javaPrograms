@@ -1,0 +1,28 @@
+package org;
+
+
+class person{
+	String name;
+	
+	person(String name){
+		this.name = name;
+	}
+}
+class Employee{
+	int id;
+	Employee(){
+		
+	  Super(String name) ;
+	  
+	}
+
+	
+}
+public class SuperClass {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

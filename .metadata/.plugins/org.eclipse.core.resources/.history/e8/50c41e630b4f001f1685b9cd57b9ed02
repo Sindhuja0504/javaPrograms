@@ -1,0 +1,20 @@
+package org;
+
+public class Maths {
+	
+	
+	void sum(int a,int b) {
+		System.out.println("add :" + a+b);
+	}
+
+	
+	
+	public static void main(String[] args) {
+		
+		Maths num = new Maths();
+		num.sum(10,10);
+		
+
+	}
+
+}

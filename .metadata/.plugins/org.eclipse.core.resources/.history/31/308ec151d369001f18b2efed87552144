@@ -1,0 +1,14 @@
+package seleniumBasic;
+
+public class MethodOverLoading {
+	
+    public void browser() {
+    	System.out.println(browser);
+    }
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

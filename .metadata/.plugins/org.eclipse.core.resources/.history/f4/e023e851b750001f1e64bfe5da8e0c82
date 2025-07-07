@@ -1,0 +1,20 @@
+package org;
+
+public class ThisKeyword {
+	
+	ThisKeyword(){
+		
+	}
+	
+	void setclass()
+	{
+		
+	}
+
+	public static void main(String[] args) {
+		
+		ThisKeyword obj = new ThisKeyword();
+
+	}
+
+}

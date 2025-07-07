@@ -1,0 +1,14 @@
+package seleniumBasic;
+
+
+public class GrandParent {
+	
+	void applyBreak(){
+		
+		System.out.println("this is grandparent class : applybreak");
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,22 @@
+package learn;
+
+import java.util.Scanner;
+
+public class School {
+	
+	String passOrFail(String result)
+	{
+		return result;
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner obj = new Scanner(System.in);
+		int totalmark = obj.nextInt();
+				
+		
+		
+
+	}
+
+}

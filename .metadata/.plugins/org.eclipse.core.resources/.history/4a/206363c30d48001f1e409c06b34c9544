@@ -1,0 +1,40 @@
+package org;
+
+import java.util.Scanner;
+
+public class DemoSacnner {
+	int a=1;
+	int b=5;
+	
+	public void hello() {
+		   int a=2;              // local variable
+		System.out.println(a);
+	}
+
+	public static void main(String[] args) {
+		DemoSacnner bs =new DemoSacnner();
+		
+		bs.hello();
+		
+		System.out.println(bs.a);
+		System.out.println(bs.b);
+		
+//Scanner scn=new Scanner(System.in);
+//		
+////college info
+//
+//
+//
+//scn.next();
+//
+//
+//System.out.println("ID : ");
+//scn.nextInt();
+//
+//System.out.println("Phone no : ");
+//		
+//scn.nextLong();
+
+	}
+
+}

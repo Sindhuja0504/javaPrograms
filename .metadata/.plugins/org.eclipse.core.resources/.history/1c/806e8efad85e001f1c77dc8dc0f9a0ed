@@ -1,0 +1,31 @@
+package org;
+
+public class LearnMethods {
+	
+	public void browser() {
+		
+	}
+	
+	public void addition(int a, int b) {
+		
+	}
+	
+	private int  number() {
+		return 0;
+		
+	}
+	
+	int numberOfall() {
+		
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		
+		LearnMethods obj = new LearnMethods();
+		obj.numberOfall();
+		
+		
+	}
+
+}

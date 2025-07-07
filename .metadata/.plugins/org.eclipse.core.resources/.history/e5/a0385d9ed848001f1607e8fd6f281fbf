@@ -1,0 +1,22 @@
+package org;
+
+import java.util.Scanner;
+
+public class UserInput {
+	 int a;
+
+	public  static void main(String[] args) {
+		 System.out.println(a);
+	
+
+		Scanner Obj = new Scanner(System.in);
+		
+		 int a = Obj.nextInt();
+		
+		System.out.println("this is int " + a);
+		 
+		
+
+	}
+
+}

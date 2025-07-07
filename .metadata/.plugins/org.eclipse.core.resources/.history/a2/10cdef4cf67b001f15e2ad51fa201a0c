@@ -1,0 +1,28 @@
+package seleniumBasic;
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ListInSelenium {
+
+	public static void main(String[] args) {
+		
+		ChromeDriver Driver = new ChromeDriver();
+		Driver.manage().window().maximize();
+		Driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		Driver.get("https://www.flipkart.com/");
+		// for list we use findElements
+		//findElements - will find more than one value
+		//findElemnts return type is - List<WebElement>
+		
+	List<WebElement> demo =	Driver.findElements(By.tagName("a"));
+	int demo1 = demo.size();	
+	System.out.println("total size :"  + demo1);
+
+	}
+
+}

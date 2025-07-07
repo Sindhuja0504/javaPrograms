@@ -1,0 +1,16 @@
+package org;
+
+public class Mobile {
+	void iphone()
+	{
+		
+	}
+	
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
