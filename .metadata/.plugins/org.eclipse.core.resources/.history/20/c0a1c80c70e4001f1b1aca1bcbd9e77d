@@ -1,7 +1,0 @@
-package org.singleInherit1;
-
-import org.singleInherit.DiffPackS2;
-
-public class DiffPackS1 extends DiffPackS2{
-
-}
