@@ -35,8 +35,9 @@ public class Email {
 		TakesScreenshot screenshoot = (TakesScreenshot)driver;
 		File f1= email.getScreenshotAs(OutputType.FILE);
 		System.out.println(f1);
-		File f2= new File("./images/email2.png");
+		File f2= new File("./images/email2.png"); 
 		FileHandler.copy(f1, f2);
+		
 	}
 		catch (Exception e) {
 			//System.out.println();

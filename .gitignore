@@ -8,7 +8,6 @@ target/
 .metadata
 .factorypath
 .classpath
-.project
 .settings/
 .vertx/
 bin/
