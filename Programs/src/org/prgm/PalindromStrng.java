@@ -5,8 +5,8 @@ public class PalindromStrng {
 		String name ="madam";
 		String rev="";
 		
-		int a =0;
-		int b = 0;
+//		int a =0;
+//		int b = 0;
 		
 		for(int i=name.length()-1;i>=0;i--) {
 			rev = rev+name.charAt(i);

@@ -1,4 +1,4 @@
-package org.prgm;
+ package org.prgm;
 
 public class Fibino {
 	public static void main(String[] args) {
